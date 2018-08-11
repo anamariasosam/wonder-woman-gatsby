@@ -1,0 +1,31 @@
+.features {
+  padding: 5rem 0;
+}
+
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
+}
+
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+
+  &-image > .fa {
+    font-size: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #209cee;
+  }
+
+  &-content .content {
+    font-size: 14px;
+    margin: 1rem 1rem;
+  }
+
+  &-content .content h4 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
