@@ -16,7 +16,7 @@ const IndexPage = () => (
               Mujer Maravilla
             </h1>
             <h2 className="subtitle is-4">
-              Guerrera de las Amazonas
+              Princesa guerrera de las Amazonas
             </h2>
             <br />
             <p className="has-text-centered">
