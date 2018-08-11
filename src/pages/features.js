@@ -34,15 +34,15 @@ const featuresList = [
     },
     {
       title: "Objetivo",
-      description: "La justicia, la paz y la igualdad sexual ",
+      description: "La justicia, la paz y la igualdad sexualå",
       imageUrl: "https://cdn.vox-cdn.com/thumbor/-K4Ku6vyz6q6BeX3yWllSbuhm6k=/0x0:7952x5304/1200x800/filters:focal(3340x2016:4612x3288)/cdn.vox-cdn.com/uploads/chorus_image/image/55528497/WonderWomanTrenches.0.jpg"
     }
   ]
 ]
 
 const Features = () => (
-  <section className="container is-fullheight">
-    <div className="columns features">
+  <section className="container is-fullheight features-container">
+    <div className="columns">
       { featuresList[0].map(
           (feature) =>
             <Card
@@ -51,7 +51,7 @@ const Features = () => (
             />
       )}
     </div>
-    <div className="columns features">
+    <div className="columns">
       { featuresList[1].map(
           (feature) =>
             <Card
