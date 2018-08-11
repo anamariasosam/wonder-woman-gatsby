@@ -1,20 +1,8 @@
 @charset "utf-8";
 @import "~bulma/bulma";
-
-.tabs ul {
-  border: none;
-}
-
-img {
-  padding: 5px;
-  border: 1px solid #ccc;
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 html,
 body {
   font-family: 'Open Sans';
-}
-
-.columns:nth-child(2) {
-  margin-top: -10rem;
 }
